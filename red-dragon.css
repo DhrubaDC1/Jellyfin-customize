@@ -1,0 +1,111 @@
+.cardContent-button,
+.itemDetailImage {
+  border-radius: 1em !important;
+}
+.playedIndicator {
+  background: red !important;
+}
+/* Make count indicator icon red */
+.countIndicator {background: red;}
+.headerCastButton {
+  display: none;
+}
+#loginPage {
+  background: url('https://raw.githubusercontent.com/DhrubaDC1/Jellyfin-customize/main/Unknown2.jpg');
+  background-size: cover;
+}
+.emby-input{
+  color: #800000;
+  background: none;
+}
+.button-submit{
+  background: red;
+}
+.backdropImage {
+  display: none;
+}
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('https://raw.githubusercontent.com/DhrubaDC1/Jellyfin-customize/main/Unknown3.jpeg');
+  filter: blur(3px);
+  background-size: cover;
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+/* Adjust both "size-adjust" and "size" to modify size */
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.7em;
+}
+/* Size episode preview images in a more compact way */
+.listItemImage.listItemImage-large.itemAction.lazy {
+  height: 110px;
+}
+.listItem-content {
+  height: 115px;
+}
+.secondary.listItem-overview.listItemBodyText {
+  height: 61px;
+  margin: 0;
+}
+
+#castContent .card.overflowPortraitCard {
+  width: 4.2cm;
+  font-size: 90%;
+}
+
+#castContent .personCard {
+  width: auto;
+}
+
+#castContent .personCard .cardBox {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+#castContent {
+  flex-wrap: wrap;
+  max-height: 9.75em;
+}
+
+div.personCard > :first-child > :first-child {
+  display: none;
+}
+
+.itemDetailPage .cardText {
+  text-align: left;
+}
+
+.itemDetailPage .textActionButton {
+  text-align: left;
+}
+.mainDrawer-scrollContainer {
+  color: red;
+}
+.dashboardGeneralForm {
+  color: white;
+}
+.emby-input,
+.emby-textarea,
+.emby-select {
+  border-color: red;
+}
+.emby-input:focus,
+.emby-textarea:focus,
+.emby-select-withcolor {
+  border-color: #ffffff !important;
+}
+@import url(https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css");
